@@ -3,17 +3,22 @@
 <head>
 <style>
 .item1 { grid-area: header; }
-.item2 { grid-area: menu; }
-.item3 { grid-area: main; }
-.item4 { grid-area: right; }
-.item5 { grid-area: footer; }
+.item2 { grid-area: sidebar1; }
+.item3 { grid-area: sidebar2; }
+.item4 { grid-area: main; }
+.item5 { grid-area: div; }
+
 
 .grid-container {
   display: grid;
   grid-template-areas:
-    'menu header header header header header'
-    'menu main main main right right'
-    'menu footer footer footer footer footer';
+    'header header header header'
+    'sidebar1 sidebar1 sidebar2 sidebar2'
+    'main main main div'
+    'sidebar1 sidebar2 sidebar1'
+    'main main main main'
+    'footer footer footer footer'
+    ;
   grid-gap: 10px;
   background-color: #2196F3;
   padding: 10px;
