@@ -1,0 +1,17 @@
+..demo-grid {
+    width: 95%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.header,
+.sidebar,
+.main,
+.footer {
+    grid-column: span 2;
+}
+
+.demo-grid aside {
+    grid-row: 3;
+}
