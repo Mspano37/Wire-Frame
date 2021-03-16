@@ -18,15 +18,15 @@
 .sidebar {
     height: 593px;
     background-color: orange;
-    grid-column:50%;
-    grid-row: span 3;
+    grid-column:1 2 3;
+    grid-row: 2;
 }
 
 .sidebar2 {
     height: 593px;
     background-color: yellow;
-    grid-column: 50%;
-    grid-row: 4 5 6;
+    grid-column: 4 5 6;
+    grid-row: 2;
 }
 
 .sidebar3 {
