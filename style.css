@@ -101,7 +101,7 @@
 .div {
     height: 593px;
     background-color:  rgb(54, 154, 216);
-    grid-column-start: 5;
+    grid-column-start: 6;
     grid-column-end: 7;
     grid-row: 3;
     text-align: center;
