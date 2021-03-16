@@ -53,7 +53,7 @@
 .main {
     height: 593px;
     background-color: cadetblue;
-    grid-column: span 2;
+    grid-column: span 3;
     grid-row: 3;
 }
 
@@ -67,7 +67,7 @@
 .div {
     height: 593px;
     background-color:  rgb(54, 154, 216);
-    grid-column: 3;
+    grid-column: 4;
     grid-row: 3;
 }
 
