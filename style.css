@@ -10,6 +10,8 @@
     background-color: rgb(54, 154, 216);
     grid-column: span 3;
     grid-row: 1;
+    text-align: center;
+    font-size: large;
 }
 
 .sidebar {
