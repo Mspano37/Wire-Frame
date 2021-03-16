@@ -16,54 +16,63 @@
 }
 
 .sidebar {
+    height: 593px;
     background-color: orange;
     grid-column: 1;
     grid-row: 2;
 }
 
 .sidebar2 {
+    height: 593px;
     background-color: yellow;
     grid-column: 3;
     grid-row: 2;
 }
 
 .sidebar3 {
+    height: 593px;
     background-color: orange;
     grid-column: 1;
     grid-row: 4;
 }
 
 .sidebar4 {
+    height: 593px;
     background-color: yellow;
     grid-column: 2;
     grid-row: 4;
 }
 
 .sidebar5 {
+    height: 593px;
     background-color: orange;
     grid-column: 3;
     grid-row: 4;
 }
 
 .main {
+    height: 593px;
     background-color: cadetblue;
     grid-column: span 2;
     grid-row: 3;
 }
 
 .main2 {
+    height: 593px;
     background-color: cadetblue;
     grid-column: span 3;
     grid-row: 5;
 }
 
 .div {
+    height: 593px;
     background-color:  rgb(54, 154, 216);
     grid-column: 3;
     grid-row: 3;
 }
 
 .footer {
+    height: 161px;
     background-color:  rgb(54, 154, 216);
     grid-column: span 3;
     grid-row: 6;
