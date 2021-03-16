@@ -32,21 +32,21 @@
 .sidebar3 {
     height: 593px;
     background-color: orange;
-    grid-column: 1;
+    grid-column:span 1;
     grid-row: 4;
 }
 
 .sidebar4 {
     height: 593px;
     background-color: yellow;
-    grid-column: 2;
+    grid-column:span 2;
     grid-row: 4;
 }
 
 .sidebar5 {
     height: 593px;
     background-color: orange;
-    grid-column: 3;
+    grid-column:span 3;
     grid-row: 4;
 }
 
@@ -67,7 +67,7 @@
 .div {
     height: 593px;
     background-color:  rgb(54, 154, 216);
-    grid-column: 4;
+    grid-column:span 3;
     grid-row: 3;
 }
 
