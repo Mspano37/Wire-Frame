@@ -46,7 +46,7 @@
 .sidebar5 {
     height: 593px;
     background-color: orange;
-    grid-column:5 / 6;
+    grid-column: 5;
     grid-row: 4;
 }
 
