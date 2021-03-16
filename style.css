@@ -60,7 +60,7 @@
 .main2 {
     height: 593px;
     background-color: cadetblue;
-    grid-column: 3;
+    grid-column: span 3;
     grid-row: 5;
 }
 
