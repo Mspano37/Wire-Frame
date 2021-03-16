@@ -1,16 +1,56 @@
 .h1 {
     text-align: center;
     font-size: large;
-    text-decoration: darkgray;
 }
 
 .grid {
     display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "sidebar1 sidebar2"
+    "main main div"
+    "sidebar3 sidebar4 sidebar5"
+    "main main main"
+    "footer";
 }
 
 .header {
-    width:1920px;
+    grid-area: header;
     height: 593px;
     background-color: darkcyan;
     text-align: center;
+}
+
+.sidebar1 {
+    grid-area: sidebar1;
+}
+
+.sidebar2 {
+    grid-area: sidebar2;
+}
+
+.sidebar3 {
+    grid-area: sidebar3;
+}
+
+.sidebar4 {
+    grid-area: sidebar4;
+}
+
+.sidebar5 {
+    grid-area: sidebar5;
+}
+
+.main {
+    grid-area: main;
+}
+
+.div {
+    grid-area: div;
+}
+
+.footer {
+    grid-area: footer;
 }
