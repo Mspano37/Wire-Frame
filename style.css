@@ -1,15 +1,24 @@
-..demo-grid {
+.demo-grid {
     width: 95%;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 2fr 3fr;
 }
 
-.header,
-.sidebar,
-.main,
+.header {
+    background-color: rgb(54, 154, 216);
+}
+
+.sidebar {
+    background-color: orange;
+}
+
+.main {
+    background-color: cadetblue;
+}
+
 .footer {
-    grid-column: span 2;
+    background-color:  rgb(54, 154, 216);
 }
 
 .demo-grid aside {
