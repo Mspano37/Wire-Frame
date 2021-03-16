@@ -67,7 +67,7 @@
 .div {
     height: 593px;
     background-color:  rgb(54, 154, 216);
-    grid-column:5 6;
+    grid-column:span 6;
     grid-row: 3;
 }
 
