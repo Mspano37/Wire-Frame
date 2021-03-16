@@ -78,7 +78,8 @@
 .main {
     height: 593px;
     background-color: cadetblue;
-    grid-column:span 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
     grid-row: 3;
     text-align: center;
     font-size: 80px;
@@ -100,7 +101,8 @@
 .div {
     height: 593px;
     background-color:  rgb(54, 154, 216);
-    grid-column:span 6;
+    grid-column-start: 5;
+    grid-column-end: 7;
     grid-row: 3;
     text-align: center;
     font-size: 80px;
